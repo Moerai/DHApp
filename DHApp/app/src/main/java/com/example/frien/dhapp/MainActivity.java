@@ -36,6 +36,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         binding.viewPager.setAdapter(new MyViewPagerAdapter(getSupportFragmentManager()));
-
     }
 }
