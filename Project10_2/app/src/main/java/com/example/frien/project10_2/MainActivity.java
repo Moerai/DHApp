@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
         ImageView image[] = new ImageView[9];
         Integer imageId[] = {R.id.iv1,R.id.iv2,R.id.iv3,R.id.iv4,R.id.iv5,R.id.iv6,R.id.iv7,R.id.iv8,R.id.iv9};
         final String imgName[] = {
-                "독서하는 소녀", "꽃장식 모자 소녀",
-                "부채를 든 소녀", "이레느깡 단 베르양",
-                "잠자는 소녀", "테라스의 두 자매",
-                "피아노 레슨","피아노 앞의 소녀들", "해변에서"
+                "창궐", "암수살인",
+                "미쓰백", "베놈",
+                "퍼스트맨", "스타 이즈 본",
+                "크레이지 리치 아시안","팽귄 하이웨이", "호밀밭의 반항아"
         };
         for (int i =  0; i<imageId.length; i++){
             final int index;
